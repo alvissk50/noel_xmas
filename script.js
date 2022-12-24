@@ -1,5 +1,5 @@
 const nextXmasDate = (currentTime) => {
-  let xmasDate = new Date(currentTime.getFullYear() + "-12-25T00:00:00");
+  let xmasDate = new Date(currentTime.getFullYear() + "-12-24T23:00:00");
   if (currentTime.getTime() > xmasDate.getTime()) {
     let nextYear = currentTime.getFullYear() + 1;
     xmasDate = new Date(nextYear + "-12-25T00:00:00");
